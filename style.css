@@ -1,0 +1,61 @@
+header{display: flex;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center
+    ;
+}
+
+.div{
+    background-color: burlywood;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+footer{text-align: center;
+    padding: 10px;
+    background-color: bisque;
+    color: black;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    gap: 20px;
+    ;
+}
+
+#contact{background-color: aliceblue;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+button{background-color: bisque;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{background-color: darkgray;}
+
+#services-page{background-color: skyblue;
+    padding: 50px;
+    text-align: center;
+}
+.card{display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;}
+    

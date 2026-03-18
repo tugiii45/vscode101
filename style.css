@@ -1,8 +1,9 @@
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  margin: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: lightgray;
+  
   color: black;
 }
 
@@ -11,6 +12,8 @@ header {
   color: white;
   padding: 20px;
   text-align: center;
+  font-weight: 200;
+  
 }
 
 header h1 {
@@ -39,7 +42,7 @@ nav a:hover {
 main {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px;
 }
 
 section {
@@ -48,6 +51,7 @@ section {
 
 h2 {
   color: blue;
+  text-decoration: underline;
 }
 
 #home {
@@ -97,9 +101,10 @@ textarea {
 button {
   background-color: blue;
   color: white;
-  padding: 10px 20px;
+  padding: 10px;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 button:hover {
